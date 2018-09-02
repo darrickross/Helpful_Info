@@ -1,0 +1,53 @@
+Wrote with the following versions in mind.
+>Virtual Box: 5.2.18-124319 on windows
+>Ubuntu 18.04
+
+
+
+Setting up the vm
+(Ill get to this later...)
+
+
+Setting up Guest Editions on the Guest Machine
+1) Boot up and log into Guest Machine
+2) Open Terminal
+3) Enter the following 3 lines, let the command finish before typing each line
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install build-essential
+
+
+-You will need to type your password when doing this
+-This will update the list of repositories and dependencies
+-Then install all changes
+-After that it will grab the package 'build-essential' and install it
+
+4) In the Virtual Box Menu, navigate to 'Devices' and at the bottom select 'Insert Guest Additions CD image...'
+5) A pop up should appear asking if you would like to run the software on the cd select yes
+-If you did not get a pop up, check that that Ubuntu currently detects a cd in the disk drive. If not try step 4 again, also try giving the Guest OS a restart.
+6) When it is finished installing the Guest Additions, give the Guest OS a restart.
+
+
+Shared Clipboard
+1) Make sure you have Guest Editions installed on the Guest OS (follow instructions above)
+2) Select the Guest OS and Boot
+3) Under the menu 'Devices' and 'Shared Clipboard' you can change which directions you would like the Clipboard to go between.
+
+
+
+Set up a Shared Folder
+1) Make sure you have Guest Editions installed on the Guest OS (follow instructions above)
+2) On the Guest OS, open Terminal and run the following line:
+
+sudo adduser <USERNAME HERE> vboxsf
+
+-Replace <USERNAME HERE> with the username of the Guest OS that you are using
+
+3) When that is finished shutdown the Guest OS
+4) Navigate to Virtual Box, select the Guest OS and enter the settings
+5) Under 'Shared Folders' select Machine Folders and hit the "Folder with a green plus sign" button
+6) Select the drop down on the right of 'Folder Path' and select 'Other', select the folder to use on the Host Machine
+7) Select 'Auto-mount', this will tell the guest to try to mount the folder on start up
+8) Boot the Guest OS
+9) In the file explorer you should see a directory in 'media' named sf_<Host_Folder> where <Host_Folder> is the name of the host folder you selected to share
