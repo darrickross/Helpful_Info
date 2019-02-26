@@ -1,11 +1,20 @@
 Wrote with the following versions in mind.
->Virtual Box: 5.2.18-124319 on windows
->Ubuntu 18.04
+>Virtual Box: 5.2.26-128414 on windows
+>Ubuntu 18.04 and 18.10
+
+Terminology and Common Acronyms:
+* VM [Stands for Virtual Machine]
+
 
 
 
 Setting up the vm
-(Ill get to this later...)
+1) Open Virtual Box
+2) Navigate to Machine -> New... [You can speed up this process by hitting CTRL + N
+3) In the window,
+  3.1) Enter the name you would like to use for this VM
+  3.2) Under the 'Type' drop down, select Linux
+  3.3) Under the 'Version' drop down, select the Ubuntu Version you are using
 
 
 Setting up Guest Editions on the Guest Machine
