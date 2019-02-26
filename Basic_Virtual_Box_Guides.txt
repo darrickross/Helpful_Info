@@ -1,20 +1,118 @@
 Wrote with the following versions in mind.
->Virtual Box: 5.2.26-128414 on windows
+>Virtual Box: 5.2.26-128414 on Windows 64bit
 >Ubuntu 18.04 and 18.10
 
+
+Required Files
+* an ubuntu ISO file. I suggest 18.04 because it will get updates for the next
+    2 years.
+
 Terminology and Common Acronyms:
-* VM [Stands for Virtual Machine]
+* VM [Virtual Machine]
+    -
+* MB [Mega Bytes]
+    - 1 MB = 1024 Kilo Bytes
+* GB [Giga Bytes]
+    - 1 GB = 1024 Mega Bytes
+* RAM [Random Access Memory]
+* ISO []
+* Host Machine []
+    -
 
 
 
-
-Setting up the vm
+Setting up the VM
 1) Open Virtual Box
-2) Navigate to Machine -> New... [You can speed up this process by hitting CTRL + N
+2) Navigate to Machine -> New... [You can speed up this process by hitting
+    CTRL + N, or Clicking the Blue New button]
 3) In the window,
-  3.1) Enter the name you would like to use for this VM
-  3.2) Under the 'Type' drop down, select Linux
-  3.3) Under the 'Version' drop down, select the Ubuntu Version you are using
+    3.1) Enter the name you would like to use for this VM
+    3.2) Under the 'Type' drop down, select Linux
+    3.3) Under the 'Version' drop down, select Ubuntu (64bit)
+    3.4) Click Next button
+4) The next screen should be labeled "Memory size"
+    4.1) Drag the slider, or Enter the number of MB you will be allocating
+            towards the VMs RAM. This comes from your computer, so don't give
+            all that you have to the VM. It is recommended to also not go below
+            1024 MB. I personally would not go above 40-50% of what your
+            computer has, Virtual Box sets the slider max to your computers
+            maximum amount of RAM MB.
+    4.2) Click Next
+5) The next screen should be labeled "Hard disk"
+    5.1) Here you will select whether to make a virtual hard drive or not. For
+            simplicity sake, you will select "Create a virtual hard drive now".
+    5.2) Click Create
+6) The next screen should be "Hard disk file type"
+    6.1) Here I suggest you select "VDI (VirtualBox Disk Image)"
+    6.2) Click Next
+7) The Next screen is labeled "Storage on physical hard disk"
+    *Quick note: When VirtualBox makes a VM the hard drive is represented on the
+        host machine as a file. This can either be pre allocated with its max
+        size (Fixed Size option), or you can have it expand and shrink
+        dynamically with the amount of space the VM file system uses.
+    7.1) Select Dynamically allocated.
+    7.2) Click Next
+8) The Next screen is labeled "File location and size"
+    8.1) Drag or type in the amount of GB (or MB if your crazy) the VM will have
+        for a hard drive. If you selected dynamically allocated the size the VM
+        will take is small to start and will expand over time, as you use more
+        space in the VM.
+    8.2) Click Create
+9) The window will close
+10) Select (click once) the VM you just made from the list on the left. This
+    will highlight the VM blue.
+11) Click the Orange Settings button at the bar.
+12) In the Settings window
+    *Quick Note: Here you will be able to change settings when your VM is off.
+    Suggestion: Under System -> Processor, increase the number of CPU cores
+        from 1 to 2-3 (set this back to 1 if you experience problems when
+        running the VM)
+    12.1) Navigate to Storage, in the Storage Devices section, left click the
+        Controller: IDE "Empty" with a Disk icon.
+    12.2) On the right click the disk icon next to "Optical Drive"
+    12.3) In the drop down, select "Choose Virtual Optical Disk File"
+    12.4) Navigate to the ISO file you downloaded, then select and "Open" it.
+    12.5) Back in the Settings window click "Ok"
+13) With your VM still selected, click green "Start" button.
+14) A window will open with your VM. Let it sit until it reaches the Install
+        menu.
+    14.1) Here you will select "Install Ubuntu"
+    14.2) Here English (US) is the default option, If you need a different
+        layout, select it.
+    14.3) Click Continue
+    14.4) If you would like this install to be a minumal Installation, without
+        Office Libre, random Games, etc. Select the "Minimal Installation"
+        button.
+    14.5) If you would like to download updates while installing Ubuntu keep
+        this option checked
+    14.6) If you would like third party software for things like graphics, wifi
+        and other media formats check the box. If you want more information about what this
+        installs, https://askubuntu.com/questions/22285/clarification-of-the-third-party-software-options-during-system-installation
+    14.7) Click Continue
+    14.8) Keep Erase disk and install Ubuntu checked
+        *Note: This is NOT erasing anything outside of the VM. Your Host Machine
+            files are safe and will not be touched.
+    14.9) Select Install Now
+    14.10) Select Continue (Again your file are not going to be touched)
+    14.11) Select your time zone region
+    14.12) Click Continue
+15) Here you will set the following:
+    15.1) Name your VM (this can be different from the name you chose earlier)
+        and can also include any characters.
+    15.2) Name your computer's name. This is what other computers on your
+        network will see if you connect your VM to the internet. This can only
+        be composed of Letters, Digits, Hyphens (-), and dots (.)
+    15.3) Pick your username for this VM. This must start with a lower case
+        letter.
+    15.4) Pick a password, Don't forget it!!!
+    15.5) If you would like the VM to log in automatically (without the need to
+        enter a password) select "Log in automatically"
+    15.6) Click Continue
+16) Wait for the installation to finish. It will prompt you to restart to finish
+    the installation process. Click this Restart Now button when it comes up.
+17) When the VM restarts the screen will ask you to remove the installation
+    media, then click Enter. You will only need to click Enter.
+18) You now have VM.
 
 
 Setting up Guest Editions on the Guest Machine
