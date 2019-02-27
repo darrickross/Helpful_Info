@@ -86,8 +86,8 @@ Setting up the VM
     14.5) If you would like to download updates while installing Ubuntu keep
         this option checked
     14.6) If you would like third party software for things like graphics, wifi
-        and other media formats check the box. If you want more information about what this
-        installs, https://askubuntu.com/questions/22285/clarification-of-the-third-party-software-options-during-system-installation
+        and other media formats check the box. If you want more information
+        about what this installs, https://askubuntu.com/questions/22285/clarification-of-the-third-party-software-options-during-system-installation
     14.7) Click Continue
     14.8) Keep Erase disk and install Ubuntu checked
         *Note: This is NOT erasing anything outside of the VM. Your Host Machine
@@ -130,21 +130,29 @@ sudo apt-get install build-essential
 -Then install all changes
 -After that it will grab the package 'build-essential' and install it
 
-4) In the Virtual Box Menu, navigate to 'Devices' and at the bottom select 'Insert Guest Additions CD image...'
-5) A pop up should appear asking if you would like to run the software on the cd select yes
--If you did not get a pop up, check that that Ubuntu currently detects a cd in the disk drive. If not try step 4 again, also try giving the Guest OS a restart.
-6) When it is finished installing the Guest Additions, give the Guest OS a restart.
+4) In the Virtual Box Menu, navigate to 'Devices' and at the bottom select
+    'Insert Guest Additions CD image...'
+5) A pop up should appear asking if you would like to run the software on the
+    cd select yes
+-If you did not get a pop up, check that that Ubuntu currently detects a cd in
+    the disk drive. If not try step 4 again, also try giving the Guest OS a
+    restart.
+6) When it is finished installing the Guest Additions, give the Guest OS a
+    restart.
 
 
 Shared Clipboard
-1) Make sure you have Guest Editions installed on the Guest OS (follow instructions above)
+1) Make sure you have Guest Editions installed on the Guest OS (follow
+    instructions above)
 2) Select the Guest OS and Boot
-3) Under the menu 'Devices' and 'Shared Clipboard' you can change which directions you would like the Clipboard to go between.
+3) Under the menu 'Devices' and 'Shared Clipboard' you can change which
+    directions you would like the Clipboard to go between.
 
 
 
 Set up a Shared Folder
-1) Make sure you have Guest Editions installed on the Guest OS (follow instructions above)
+1) Make sure you have Guest Editions installed on the Guest OS (follow
+    instructions above)
 2) On the Guest OS, open Terminal and run the following line:
 
 sudo adduser <USERNAME HERE> vboxsf
@@ -153,8 +161,13 @@ sudo adduser <USERNAME HERE> vboxsf
 
 3) When that is finished shutdown the Guest OS
 4) Navigate to Virtual Box, select the Guest OS and enter the settings
-5) Under 'Shared Folders' select Machine Folders and hit the "Folder with a green plus sign" button
-6) Select the drop down on the right of 'Folder Path' and select 'Other', select the folder to use on the Host Machine
-7) Select 'Auto-mount', this will tell the guest to try to mount the folder on start up
+5) Under 'Shared Folders' select Machine Folders and hit the "Folder with a
+    green plus sign" button
+6) Select the drop down on the right of 'Folder Path' and select 'Other',
+    select the folder to use on the Host Machine
+7) Select 'Auto-mount', this will tell the guest to try to mount the folder on
+    start up
 8) Boot the Guest OS
-9) In the file explorer you should see a directory in 'media' named sf_<Host_Folder> where <Host_Folder> is the name of the host folder you selected to share
+9) In the file explorer you should see a directory in 'media' named
+    sf_<Host_Folder> where <Host_Folder> is the name of the host folder you
+    selected to share
