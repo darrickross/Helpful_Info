@@ -1,0 +1,140 @@
+My basic check list for things to disable/change about Win 10 to set it up how I want
+
+This is not a detailed guide about how to do this, but I keep it mostly organized
+
+- Removed Bloat from start menu
+- Uninstalled Microsoft One Drive
+- Disable weird start up in task manager
+- Task Bar right click task bar
+    - Disable People on Task Bar
+    - Enable Windows Ink if needed
+    - Enable Keyboard Icon if needed
+    - Cortana
+        - Hidden
+
+
+- Settings
+    - System
+        - Notifications
+            - Shuffle order
+            - Disable welcome experience
+            - Disable tips
+
+        - Focus assist
+            - Alarms Only
+            - Time:
+                - 12am - 1159am
+                - Daily
+                - Alarm
+                - Notification check off
+        - Storage
+            - How we free up space
+                - Temp
+                    - 60 Days
+
+            - Where new content is saved
+                - Move to hard disk
+
+
+        - Multitasking
+            - Timeline
+                - Off
+
+            - Virtual
+                - All desktops
+                - Only current desktop
+
+        - Shared experience
+            - Share across devices
+                - OFF
+
+
+    - Network & Internet
+        - Data usage
+            - Background
+                Always Limit
+
+
+    - Personalization
+        - Colors
+            - Transparent Off
+*           - Default app Mode: Dark    ****************************************
+        - Start
+            - Suggestions OFF
+            - Choose which folders appear on Start
+                - Turn all on
+
+        - Taskbar
+            - Lock on
+            - Hide off x2
+            - small task bar buttons on
+            - Command Prompt < PowerShell
+            - Combine to always hide
+            - People Off
+
+    - App
+        - App & Features
+            - Manage Optional Features
+                - Remove anything you will not use
+            - App Execution aliases
+                - Disable Edge
+            - App & Features
+                - Remove permission for anything you think shouldn't have something
+                - Uninstall
+                    - Xbox Live
+                    - Web Media Extensions
+                    - Weather
+
+    - Gaming
+        - Game bar
+            - Record off
+            - Check game bar button off
+
+    - Ease of Access
+        - Keyboard
+            - Sticky Keys off
+
+    - Cortana
+        - Respond to Hey Cortana: OFF
+        - Keyboard shortcut: OFF
+        - Lock screen: OFF
+
+        -Manage the info Cortana can access from this device
+            - ALL OFF
+
+        - History: OFF and clear
+
+        - Cortana across devices: OFF
+
+    - Privacy
+        - General
+            - ALL OFF
+        - Speech
+            - OFF
+        - Inking
+            - OFF
+        - Diagnostics
+            - Request Delete of Diagnostic data
+            - Feedback: NEVER
+        - Activity history
+            - Clear
+            - Dont send
+            - Dont store
+        - Location
+            - Make sure everything is off
+            - Clear it
+        - Camera
+            - Change to OFF
+            - Access Off
+        - Microphone is something you should be careful with It will block apps like discord from being able to hear you (or obs)
+        - Go Thru the rest and disable/enable as you please
+
+    - Update & Security
+        - Windows Update
+            - Active hours
+                - 12pm to 6am
+        - Delivery Optimization
+            - Other PCs OFF
+        - For Dev
+            - Microsoft Store app only
+            - Apply File Explorer Changes (adds extensions and full path)
