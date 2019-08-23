@@ -6,135 +6,135 @@ This is not a detailed guide about how to do this, but I keep it mostly organize
 - Uninstalled Microsoft One Drive
 - Disable weird start up in task manager
 - Task Bar right click task bar
-    - Disable People on Task Bar
-    - Enable Windows Ink if needed
-    - Enable Keyboard Icon if needed
-    - Cortana
-        - Hidden
+  - Disable People on Task Bar
+  - Enable Windows Ink if needed
+  - Enable Keyboard Icon if needed
+  - Cortana
+    - Hidden
 
 
 - Settings
-    - System
-        - Notifications
-            - Shuffle order
-            - Disable welcome experience
-            - Disable tips
+  - System
+    - Notifications
+      - Shuffle order
+      - Disable welcome experience
+      - Disable tips
 
-        - Focus assist
-            - Alarms Only
-            - Time:
-                - 12am - 1159am
-                - Daily
-                - Alarm
-                - Notification check off
-        - Storage
-            - How we free up space
-                - Temp
-                    - 60 Days
+    - Focus assist
+      - Alarms Only
+      - Time:
+        - 12am - 1159am
+        - Daily
+        - Alarm
+        - Notification check off
+    - Storage
+      - How we free up space
+        - Temp
+          - 60 Days
 
-            - Where new content is saved
-                - Move to hard disk
-
-
-        - Multitasking
-            - Timeline
-                - Off
-
-            - Virtual
-                - All desktops
-                - Only current desktop
-
-        - Shared experience
-            - Share across devices
-                - OFF
+      - Where new content is saved
+        - Move to hard disk
 
 
-    - Network & Internet
-        - Data usage
-            - Background
-                Always Limit
+    - Multitasking
+      - Timeline
+        - Off
+
+      - Virtual
+        - All desktops
+        - Only current desktop
+
+    - Shared experience
+      - Share across devices
+        - OFF
 
 
-    - Personalization
-        - Colors
-            - Transparent Off
-*           - Default app Mode: Dark    ****************************************
-        - Start
-            - Suggestions OFF
-            - Choose which folders appear on Start
-                - Turn all on
+  - Network & Internet
+    - Data usage
+      - Background
+        Always Limit
 
-        - Taskbar
-            - Lock on
-            - Hide off x2
-            - small task bar buttons on
-            - Command Prompt < PowerShell
-            - Combine to always hide
-            - People Off
 
-    - App
-        - App & Features
-            - Manage Optional Features
-                - Remove anything you will not use
-            - App Execution aliases
-                - Disable Edge
-            - App & Features
-                - Remove permission for anything you think shouldn't have something
-                - Uninstall
-                    - Xbox Live
-                    - Web Media Extensions
-                    - Weather
+  - Personalization
+    - Colors
+      - Transparent Off
+*       - Default app Mode: Dark  ****************************************
+    - Start
+      - Suggestions OFF
+      - Choose which folders appear on Start
+        - Turn all on
 
-    - Gaming
-        - Game bar
-            - Record off
-            - Check game bar button off
+    - Taskbar
+      - Lock on
+      - Hide off x2
+      - small task bar buttons on
+      - Command Prompt < PowerShell
+      - Combine to always hide
+      - People Off
 
-    - Ease of Access
-        - Keyboard
-            - Sticky Keys off
+  - App
+    - App & Features
+      - Manage Optional Features
+        - Remove anything you will not use
+      - App Execution aliases
+        - Disable Edge
+      - App & Features
+        - Remove permission for anything you think shouldn't have something
+        - Uninstall
+          - Xbox Live
+          - Web Media Extensions
+          - Weather
 
-    - Cortana
-        - Respond to Hey Cortana: OFF
-        - Keyboard shortcut: OFF
-        - Lock screen: OFF
+  - Gaming
+    - Game bar
+      - Record off
+      - Check game bar button off
 
-        -Manage the info Cortana can access from this device
-            - ALL OFF
+  - Ease of Access
+    - Keyboard
+      - Sticky Keys off
 
-        - History: OFF and clear
+  - Cortana
+    - Respond to Hey Cortana: OFF
+    - Keyboard shortcut: OFF
+    - Lock screen: OFF
 
-        - Cortana across devices: OFF
+    -Manage the info Cortana can access from this device
+      - ALL OFF
 
-    - Privacy
-        - General
-            - ALL OFF
-        - Speech
-            - OFF
-        - Inking
-            - OFF
-        - Diagnostics
-            - Request Delete of Diagnostic data
-            - Feedback: NEVER
-        - Activity history
-            - Clear
-            - Dont send
-            - Dont store
-        - Location
-            - Make sure everything is off
-            - Clear it
-        - Camera
-            - Change to OFF
-            - Access Off
-        - Microphone is something you should be careful with It will block apps like discord from being able to hear you (or obs)
-        - Go Thru the rest and disable/enable as you please
+    - History: OFF and clear
 
-    - Update & Security
-        - Windows Update
-            - Active hours
-                - 12pm to 6am
-        - Delivery Optimization
-            - Other PCs OFF
-        - For Dev
-            - Microsoft Store app only
-            - Apply File Explorer Changes (adds extensions and full path)
+    - Cortana across devices: OFF
+
+  - Privacy
+    - General
+      - ALL OFF
+    - Speech
+      - OFF
+    - Inking
+      - OFF
+    - Diagnostics
+      - Request Delete of Diagnostic data
+      - Feedback: NEVER
+    - Activity history
+      - Clear
+      - Dont send
+      - Dont store
+    - Location
+      - Make sure everything is off
+      - Clear it
+    - Camera
+      - Change to OFF
+      - Access Off
+    - Microphone is something you should be careful with It will block apps like discord from being able to hear you (or obs)
+    - Go Thru the rest and disable/enable as you please
+
+  - Update & Security
+    - Windows Update
+      - Active hours
+        - 12pm to 6am
+    - Delivery Optimization
+      - Other PCs OFF
+    - For Dev
+      - Microsoft Store app only
+      - Apply File Explorer Changes (adds extensions and full path)
