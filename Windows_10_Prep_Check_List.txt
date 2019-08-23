@@ -6,12 +6,12 @@ This is not a detailed guide about how to do this, but I keep it mostly organize
 - Uninstalled Microsoft One Drive
 - Disable weird start up in task manager
 - Task Bar right click task bar
+  - Search:
+    - Hidden
+  - Show Cortana button OFF
   - Disable People on Task Bar
   - Enable Windows Ink if needed
   - Enable Keyboard Icon if needed
-  - Cortana
-    - Hidden
-
 
 - Settings
   - System
@@ -19,7 +19,6 @@ This is not a detailed guide about how to do this, but I keep it mostly organize
       - Shuffle order
       - Disable welcome experience
       - Disable tips
-
     - Focus assist
       - Alarms Only
       - Time:
@@ -27,47 +26,83 @@ This is not a detailed guide about how to do this, but I keep it mostly organize
         - Daily
         - Alarm
         - Notification check off
+    - Power & Sleep
+      - Screen off after 1 hr
+      - Best Performance
     - Storage
-      - How we free up space
-        - Temp
-          - 60 Days
-
+      - Sense Storage OFF
+        - Configure Storage Sense or Millennium
+          - Temp
+            - 60 Days
       - Where new content is saved
         - Move to hard disk
-
-
+    - Tablet Mode
+      - Use Desktop
+      - Don't Ask & Don't Switch
     - Multitasking
       - Timeline
         - Off
-
       - Virtual
         - All desktops
         - Only current desktop
-
+    - Projecting to this PC
+      - Always OFF
+      - Every time a connection is requested
     - Shared experience
+      - Near by Sharing
+        - OFF
+        - From My Device Only
       - Share across devices
         - OFF
+        - From: My Devices Only
 
+  - Devices
+    - Printers & Scanners
+      - Let windows manage my Default printer OFF
+    - Mouse
+      - Related Settings
+        - Additional Mouse Options
+          - Pointer Options
+            - Hide while typing OFF
+            - Show location of pointer when press the CTRL key ON
+    - Typing
+      - Autocorrect OFF
+    - Pen & Windows Ink
+      - Windows Ink Workspace
+        - Show Recommended app Suggestions OFF
+    - AutoPlay
+      - Drive: Open folder
+      - Card: Open folder
 
   - Network & Internet
+    - Status
+      - Sharing Options
+        - Turn off sharing stuff
+    - Wifi
+      - Use Random Hardware Addresses
+      - Turn OFF Hotspot 2.0
     - Data usage
       - Background
-        Always Limit
-
+        - Always Limit
 
   - Personalization
     - Colors
       - Transparent Off
 *       - Default app Mode: Dark  ****************************************
     - Start
+      - Show more tiles on Start
+      - Show app list in Start menu
+      - Show recently added apps
       - Suggestions OFF
+      - Start full Screen
+      - Show recently opened items in jump list
       - Choose which folders appear on Start
         - Turn all on
-
     - Taskbar
       - Lock on
       - Hide off x2
       - small task bar buttons on
+      - peek off
       - Command Prompt < PowerShell
       - Combine to always hide
       - People Off
@@ -91,20 +126,28 @@ This is not a detailed guide about how to do this, but I keep it mostly organize
       - Check game bar button off
 
   - Ease of Access
+    - Display
+      - Simplify Windows
+        - Show animations OFF
+        - auto Hide scroll bar OFF
+    - Narrator
+      - OFF
+        - Shortcut off
     - Keyboard
       - Sticky Keys off
+
+  - Search
+    - SafeSearch OFF
+    - Cloud Search OFF
+    - History OFF
 
   - Cortana
     - Respond to Hey Cortana: OFF
     - Keyboard shortcut: OFF
-    - Lock screen: OFF
-
-    -Manage the info Cortana can access from this device
-      - ALL OFF
-
-    - History: OFF and clear
-
-    - Cortana across devices: OFF
+    - Lock screen: OFF (This is a Security issue last I checked. https://www.zdnet.com/article/open-cortana-voice-assistant-used-to-bypass-locked-windows-10-machine-security/)
+    - Permission
+      - Manage the info Cortana can access from this device
+        - ALL OFF
 
   - Privacy
     - General
@@ -118,8 +161,8 @@ This is not a detailed guide about how to do this, but I keep it mostly organize
       - Feedback: NEVER
     - Activity history
       - Clear
-      - Dont send
-      - Dont store
+      - Don't send
+      - Don't store
     - Location
       - Make sure everything is off
       - Clear it
@@ -132,9 +175,18 @@ This is not a detailed guide about how to do this, but I keep it mostly organize
   - Update & Security
     - Windows Update
       - Active hours
-        - 12pm to 6am
+        - Auto adjust OFF
+          - 12pm to 6am
     - Delivery Optimization
       - Other PCs OFF
     - For Dev
       - Microsoft Store app only
       - Apply File Explorer Changes (adds extensions and full path)
+
+- Move User Location
+  - property of the folder moving
+    - Location
+      - Change it
+        - Apply/Ok
+          - Yes
+            - Yes
