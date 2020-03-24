@@ -124,6 +124,11 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install build-essential
 
+(Note to do all at once, 
+    sudo apt-get update; sudo apt-get upgrade -Y; sudo apt-get install build-essential
+)
+
+
 
 -You will need to type your password when doing this
 -This will update the list of repositories and dependencies
