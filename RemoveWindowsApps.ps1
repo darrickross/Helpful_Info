@@ -42,4 +42,4 @@ Get-AppxPackage *Microsoft.Advertising.Xaml* -AllUsers | Remove-AppxPackage
 
 
 #Force new users to not get these apps installed.
-#Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage –online
+#Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage -online
