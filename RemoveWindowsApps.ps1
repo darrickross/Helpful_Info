@@ -19,7 +19,7 @@ Get-AppxPackage *bingnews* -AllUsers | Remove-AppxPackage
 Get-AppxPackage *onenote* -AllUsers | Remove-AppxPackage
 Get-AppxPackage *people* -AllUsers | Remove-AppxPackage                                 #Fails
 Get-AppxPackage *windowsphone* -AllUsers | Remove-AppxPackage
-Get-AppxPackage *photos* -AllUsers | Remove-AppxPackage
+#Get-AppxPackage *photos* -AllUsers | Remove-AppxPackage
 #Get-AppxPackage *windowsstore* -AllUsers | Remove-AppxPackage
 Get-AppxPackage *bingsports* -AllUsers | Remove-AppxPackage
 Get-AppxPackage *soundrecorder* -AllUsers | Remove-AppxPackage
